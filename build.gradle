@@ -1,0 +1,30 @@
+buildscript {
+    repositories {
+        google()
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.1.0'
+    }
+}
+apply plugin: 'com.android.application'
+
+repositories {
+    google()
+    jcenter()
+}
+
+android {
+    compileSdkVersion 23
+
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 23
+        versionCode 1
+    }
+}
+
+dependencies {
+	implementation 'com.android.support:appcompat-v7:23.0.0'
+    implementation 'org.jsoup:jsoup:1.11.3'
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Liturgia Godzin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtText">TEST</string>
+    <string name="txtMain">Wybierz oficjum:</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="txtLabelSecond">Wybierz modlitwę:</string>
+    <string name="btnBack">Powrot</string>
+    <string name="txtTestTeks">TESTOWO</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="txtPrayer">TTT</string>
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="txtPopupTitle">Liturgia Godzin</string>
+    <string name="txtPopupVer">v. 1.5</string>
+    <string name="txtPopupContent"></string>
+    <string name="txtPopupAutor">TS</string>
+    <string name="txtPopupMail">supeltomek@gmail.com</string>
+    <string name="txtBtnPopup">OK</string>
+    <string name="txtProgressTxt">Ładowanie danych...</string>
+    <string name="txtBtnReload">Spróbuj ponownie</string>
+    <string name="txtProgressReload">Ładowanie danych zakończone niepowodzeniem.</string>
+    <string name="txtPopupContent2">Jeśli znajdziesz/trafisz na jakiś błąd proszę o informację.\n
+    Wszelkie sugestie odnośnie wyglądu i działania mile widziane:)</string>
+    <string name="txtPopupAutor2">TS</string>
+
+</resources>

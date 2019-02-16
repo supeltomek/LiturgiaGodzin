@@ -1,0 +1,140 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:ignore="MergeRootFrame" >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#808080">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/title_background">
+
+            <ImageView
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:id="@+id/imageView"
+                android:background="@drawable/lgicon"
+                android:layout_centerVertical="true"
+                android:contentDescription="imgLG" />
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="fill_parent"
+                android:text="@string/txtLabelSecond"
+                android:id="@+id/textView"
+                android:layout_weight="0"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:layout_toRightOf="@+id/imageView"
+                android:gravity="center_vertical"/>
+
+            <Button
+                android:id="@+id/button"
+                android:background="@drawable/home_white"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="15dp"/>
+        </RelativeLayout>
+        <!--ScrollView
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:background="#808080">
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:gravity="center"
+                android:background="#808080"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnWezwanie"
+                    android:background="@drawable/t2"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="15dp"
+                    android:onClick="onBtnClick"/>
+                <Button
+                    android:id="@+id/btnGodz"
+                    android:background="@drawable/t2g"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_toRightOf="@+id/btnWezwanie"
+                    android:layout_marginLeft="20dp"
+                    android:onClick="onBtnClick" />
+
+                <Button
+                    android:id="@+id/btnJutrznia"
+                    android:background="@drawable/t3j"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="145dp"
+                    android:onClick="onBtnClick"/>
+
+                <Button
+                    android:id="@+id/btnMPrzedPol"
+                    android:background="@drawable/t2m1"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:onClick="onBtnClick"
+                    android:layout_alignTop="@+id/btnJutrznia"
+                    android:layout_alignLeft="@+id/btnGodz" />
+                <Button
+                    android:id="@+id/btnMPol"
+                    android:background="@drawable/t2m2"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:onClick="onBtnClick"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/btnJutrznia"
+                    android:layout_alignLeft="@+id/btnNiesz" />
+                <Button
+                    android:id="@+id/btnMPoPol"
+                    android:background="@drawable/t2m3"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:onClick="onBtnClick"
+                    android:layout_alignTop="@+id/btnMPol"
+                    android:layout_alignLeft="@+id/btnMPrzedPol" />
+
+                <Button
+                    android:id="@+id/btnNiesz"
+                    android:background="@drawable/t2n"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:onClick="onBtnClick"
+                    android:layout_marginTop="15dp"
+                    android:layout_below="@+id/btnMPol"
+                    android:layout_alignLeft="@+id/btnJutrznia" />
+
+                <Button
+                    android:id="@+id/btnKomp"
+                    android:background="@drawable/t2k"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:onClick="onBtnClick"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignLeft="@+id/btnMPoPol" />
+
+            </RelativeLayout>
+        </ScrollView-->
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView"
+            android:layout_gravity="center_vertical"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+</FrameLayout>
